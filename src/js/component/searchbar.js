@@ -1,13 +1,11 @@
 import React, { useState, useContext } from "react";
 import Autosuggest from "react-autosuggest";
-import { useHistory } from "react-router-dom";
 import { Context } from "../store/appContext";
 
 const SearchBar = () => {
   const { store } = useContext(Context);
   const [value, setValue] = useState("");
   const [suggestions, setSuggestions] = useState([]);
-  const history = useHistory();
 
   const getSuggestions = (inputValue) => {
     const results = [...store.people, ...store.planets];
