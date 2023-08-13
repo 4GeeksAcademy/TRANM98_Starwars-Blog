@@ -40,9 +40,11 @@ export const People = ({ fav, setFav, handleRemove }) => {
 								Hair Color: {person.hair_color}<br />
 								Eye Color: {person.eye_color}
 							</p>
-                            <Link to={`/src/js/views/info.js${person.id}`} className="btn btn-outline-primary">
-                                Learn more!
-                            </Link>
+							<Link to={`/info/${person.id}`} 
+								className="btn btn-outline-primary"
+							>
+								Learn more!
+							</Link>
 							<button
 								className="btn btn-outline-warning me-md-2"
 								onClick={() => handleFavorite(person)}						
