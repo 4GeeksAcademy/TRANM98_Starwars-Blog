@@ -33,7 +33,7 @@ export const Starships = ({ fav, setFav, handleRemove }) => {
 								Model: {starship.model}<br />
 								Hyperdrive Rating: {starship.hyperdrive_rating}
 							</p>
-							<Link to={`/src/js/views/starship-info.js${starship.url.match(/\/(\d+)\/$/)[1]}`} className="btn btn-outline-primary">
+							<Link to={`/starship_info/${starship.url.match(/\/(\d+)\/$/)[1]}`} className="btn btn-outline-primary">
 								Learn more!
 							</Link>
 							<button
