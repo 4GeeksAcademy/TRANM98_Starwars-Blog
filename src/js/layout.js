@@ -6,12 +6,14 @@ import { Home } from "./views/home";
 import Info from "./views/info"; 
 import PlanetInfo from "./views/planet-info"; 
 import StarshipInfo from "./views/starship-info";
+
+
 import injectContext from "./store/appContext";
+
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
 
-import SearchBar from "./SearchBar"; 
 
 // Create your first component
 const Layout = () => {
@@ -31,7 +33,6 @@ const Layout = () => {
       <BrowserRouter basename={basename}>
         <ScrollToTop>
           <Navbar fav={fav} handleRemove={handleRemove} />
-		  <SearchBar />
           <Routes>
             <Route
               path="/"
