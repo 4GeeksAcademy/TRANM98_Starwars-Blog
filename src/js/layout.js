@@ -11,6 +11,8 @@ import injectContext from "./store/appContext";
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
 
+import SearchBar from "./SearchBar"; 
+
 // Create your first component
 const Layout = () => {
   // The basename is used when your project is published in a subdirectory
@@ -29,6 +31,7 @@ const Layout = () => {
       <BrowserRouter basename={basename}>
         <ScrollToTop>
           <Navbar fav={fav} handleRemove={handleRemove} />
+		  <SearchBar />
           <Routes>
             <Route
               path="/"
