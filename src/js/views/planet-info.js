@@ -19,12 +19,10 @@ export const PlanetInfo = () => {
                 <div>
                     <h2>{planet.name}</h2>
                     <p>
-                        Suspendisse potenti. Proin nisl orci, tincidunt sit amet efficitur non, mattis ut odio. 
-                        Ut vitae placerat turpis, sit amet sodales est. Sed consectetur leo et eros dictum, eget mattis nisi pretium. 
-                        Aenean condimentum arcu nisl, vitae ornare eros vehicula nec. Nunc lacinia luctus porta. 
-                        Cras sit amet odio non lacus posuere feugiat sed id lorem.
-                        Ut vitae placerat turpis, sit amet sodales est. Sed consectetur leo et eros dictum, eget mattis nisi pretium. 
-                        Aenean condimentum arcu nisl, vitae ornare eros vehicula nec. Nunc lacinia luctus porta. 
+                        Nunc non urna at ipsum egestas ornare et eu turpis. Maecenas vitae venenatis sem, eu imperdiet odio. Sed vel scelerisque nunc. Cras accumsan eget velit sit amet accumsan. Cras bibendum ex sapien, at fermentum sapien tristique at. Nullam eget erat orci. Mauris bibendum sollicitudin sem, sit amet efficitur diam accumsan eget. Quisque egestas ipsum ligula, sit amet eleifend massa malesuada sit amet.
+                        Donec mollis lectus id odio imperdiet, a faucibus sapien mollis. Pellentesque porta quam nec magna elementum, ut euismod neque sodales. 
+                        Curabitur mattis commodo urna, a sagittis risus dignissim quis. Curabitur id accumsan quam. Cras et ipsum sem. 
+                        Donec tempus tempor eros fermentum placerat.
                     </p>
                 </div>
             </div>
